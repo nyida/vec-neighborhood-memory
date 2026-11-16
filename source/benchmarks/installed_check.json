@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "task": "T2",
+      "legacy_vs_batched_api": "identical",
+      "cli_vs_api": "identical",
+      "saved_json_vs_stdout": "identical",
+      "metric_count": 23
+    },
+    {
+      "task": "T3",
+      "legacy_vs_batched_api": "identical",
+      "cli_vs_api": "identical",
+      "saved_json_vs_stdout": "identical",
+      "metric_count": 24
+    }
+  ],
+  "fixtures": {
+    "sample_heart_9.25.h5ad": "90cc0ad7ce53d14545a142316891b561a49f51c373ecc3e1aefba4275272c132",
+    "sample_heart_9.5.h5ad": "714952899885e5fd6190393245e63210c561f8021d368abd34e7c97a929d1fce",
+    "sample_mab21l2_ko.h5ad": "c565caee6a30b5cb705044f0cb6cd5aded932c81fb22ecd974fd09a63c5fb8e9",
+    "sample_wt.h5ad": "b8f2adb3a8e51428b7ab2a4fe081976f0e1dbdec6b0148ea14572d51cd1b2429"
+  },
+  "scope": "Installed wheel, existing public upstream samples; no hidden challenge data"
+}
